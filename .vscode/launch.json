@@ -8,7 +8,8 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart",
-            "program":"Section_1/hello_world.dart"
+            "program": "${file}",
+            //"console": "terminal", //Kullanıcıdan terminal vasıtası ile veri almak istediğimizde ekleyeceğiz
         }
     ]
 }
